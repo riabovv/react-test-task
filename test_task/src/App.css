@@ -1,0 +1,70 @@
+/* Стили для списка данных */
+.testApp{
+  display: inline-block;
+}
+
+.itemList{
+  margin-bottom: 2rem;
+}
+
+.itemList li{
+  margin-bottom: 0.3rem;
+}
+
+.itemList li:last-child{
+  margin-bottom: 0rem;
+}
+
+.itemList-name{
+  color: rgb(0, 255, 85);
+}
+/* --- */
+
+
+/* Стили для фильтра */
+.filters{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+  background-color: rgb(105, 105, 105);
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.filters div:not(.male, .female){
+  margin-bottom: 0.5rem;
+}
+
+.filters label{
+  margin-right: 0.3rem;
+}
+
+.filter div:last-child{
+  margin-bottom: 0rem;
+}
+
+.filters-title{
+  color: rgb(212, 145, 0);
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.name, .lastname, .age, .sex{
+  width: 100%;
+  align-self: flex-start;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sex .female{
+  margin-right: 5rem;
+}
+
+.male label, .female label{
+  margin-left: 0.2rem;
+}
+/* --- */

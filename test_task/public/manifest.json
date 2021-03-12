@@ -1,0 +1,8 @@
+{
+  "short_name": "Test app",
+  "name": "App for test task",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "white",
+  "background_color": "rgb(43, 43, 43)"
+}
